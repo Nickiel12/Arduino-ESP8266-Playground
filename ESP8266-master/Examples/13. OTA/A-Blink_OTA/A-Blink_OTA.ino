@@ -11,8 +11,9 @@ void setup() {
   delay(10);
   Serial.println('\n');
 
-  wifiMulti.addAP("Netgear1", "a3aaf93071");   // add Wi-Fi networks you want to connect to
-  wifiMulti.addAP("Netgear4", "JesusLives");
+  wifiMulti.addAP("ssid_from_AP_1", "your_password_for_AP_1");   // add Wi-Fi networks you want to connect to
+  wifiMulti.addAP("ssid_from_AP_2", "your_password_for_AP_2");
+  wifiMulti.addAP("ssid_from_AP_3", "your_password_for_AP_3");
 
   Serial.println("Connecting ...");
   int i = 0;
