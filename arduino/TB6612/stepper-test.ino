@@ -7,7 +7,8 @@
 // the number of steps of the motor and the pins it's
 // attached to
 Stepper stepper(STEPS, 4, 5, 6, 7);
-
+int potPin = 2;
+int val = 0;
 
 void setup()
 {
@@ -19,8 +20,8 @@ void setup()
 
 void loop()
 {
+  val = analogRead(potPin);
+  stepper.setSpeed(val/10);
   Serial.println("Forward");
-  stepper.step(1000);
-  Serial.println("Backward");
-  stepper.step(-1000);
+  stepper.
 }
