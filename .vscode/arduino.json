@@ -1,6 +1,0 @@
-{
-    "board": "arduino:avr:uno",
-    "port": "COM5",
-    "sketch": "arduino\\hardware learning\\magnet-sensor\\magnet-sensor-test.ino",
-    "programmer": "AVR ISP"
-}
