@@ -1,6 +1,7 @@
 {
     "board": "arduino:avr:uno",
-    "port": "COM5",
-    "sketch": "arduino\\TB6612\\stepper-test.ino",
+    "port": "/dev/ttyACM0",
+    "output": "../build/",
+    "sketch": "arduino/adafruit-V2-shield/adafruit-V2-shield.ino",
     "programmer": "AVR ISP"
 }
