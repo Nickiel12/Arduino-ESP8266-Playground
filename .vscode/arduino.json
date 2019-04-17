@@ -1,6 +1,6 @@
 {
     "board": "arduino:avr:uno",
     "port": "COM5",
-    "sketch": "arduino\\TB6612\\stepper-test.ino",
+    "sketch": "arduino\\hardware learning\\magnet-sensor\\magnet-sensor-test.ino",
     "programmer": "AVR ISP"
 }
