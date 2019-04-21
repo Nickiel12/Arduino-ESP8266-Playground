@@ -1,11 +1,20 @@
 int potPin = 2;    // select the input pin for the potentiometer
 int val = 0;       // variable to store the value coming from the sensor
+int loopnum = 0;
 
 void setup() {
   Serial.begin(9600);
-  pinMode(2, INPUT_PULLUP);
+  pinMode(potPin, INPUT_PULLUP);
+  Serial.println("begin");
 }
 
 void loop() {
-  Serial.println(digitalRead(potPin));
+
+    val = digitalRead(potPin);
+  
+  if (val == HIGH ){
+    Serial.println("true");
+  }else {
+    Serial.println("false");
+  }
 }

@@ -46,7 +46,6 @@ void setup()
   
 	//stepperTurn.setMaxSpeed(0); //Begin motors
 	//stepperTurn.setAcceleration(2000.0);
-    myStepperTilt->setSpeed(200);
     
     stepperTilt.setMaxSpeed(200); //Begin motors
     stepperTilt.setAcceleration(200.0);
