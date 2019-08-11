@@ -5,6 +5,7 @@ const char *password = "supersecure";   // The password required to connect to i
 
 void setup() {
   Serial.begin(115200);
+  Serial.setDebugOutput(true);
   delay(10);
   Serial.println('\n');
 
